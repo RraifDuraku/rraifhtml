@@ -1,0 +1,39 @@
+h1{
+    background-color: aqua
+}
+ /* universal color */
+ *{
+    background-color: aquamarine;
+    color: black;
+ }
+ /* id selector */
+ #p1{
+    background-color: aquamarine;
+    font-size: 32px;
+ }
+ /* class selector */
+ .para{
+    background-color: black;
+    font-size: 27px;
+    color: beige;
+ }
+ /* descending selector */
+ div p{
+    background-color: aqua;
+    color: brown;
+    font-size: 24px;
+ }
+ /* child selector */
+ div>h1{
+    background-color: bisque;
+    color: black;
+    font-size: 26px;
+ }
+
+/* Group selector */
+
+ h1,h2,button{
+   background-color: azure
+   color(srgb red green blue)
+ }
+ 
